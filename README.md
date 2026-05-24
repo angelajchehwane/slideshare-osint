@@ -4,7 +4,7 @@ A REST API that searches SlideShare and returns structured results as JSON.
 
 ## Description
 
-This tool lets you search SlideShare automatically. You give it a keyword like "python" and it goes through multiple pages of SlideShare search results, collects information about each presentation and gives you back a clean JSON list with the title, author, views, slide count and link for each result.
+This tool lets you search SlideShare automatically. You give it a keyword like "python" and it goes through multiple pages of SlideShare search results. It collects information about each presentation and gives you back a clean JSON list with the title, author, views, slide count and link for each result.
 
 It also has a simple web interface where you can type your keyword, see the results as cards on the left and the raw JSON on the right and download the results as a file.
 
@@ -273,7 +273,7 @@ Angela Chehwane
 
 ## License
 
-This project is licensed under the MIT License.
+This project was developed as part of a technical assessment for OBSoft / Potech.
 
 ## Acknowledgments
 
