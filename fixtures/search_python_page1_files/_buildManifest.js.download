@@ -1,0 +1,202 @@
+self.__BUILD_MANIFEST = {
+  "/": [
+    "static/chunks/0dng3dt_q3x.m.js"
+  ],
+  "/[username]": [
+    "static/chunks/0x7mhvo9g1zbj.js"
+  ],
+  "/[username]/[title]": [
+    "static/chunks/0c18_dm7n4s7d.js"
+  ],
+  "/[username]/[title]/[slide]": [
+    "static/chunks/0it3fqa6g.30~.js"
+  ],
+  "/[username]/analytics": [
+    "static/chunks/03zh-8al3wxbd.js"
+  ],
+  "/[username]/documents": [
+    "static/chunks/12hhsd.q6jeww.js"
+  ],
+  "/[username]/favorites": [
+    "static/chunks/0xqg.tx0hmo80.js"
+  ],
+  "/[username]/favorites/tag/[tag]": [
+    "static/chunks/0cm94ybh.d2ls.js"
+  ],
+  "/[username]/followers": [
+    "static/chunks/0ynfqh5_ew9~a.js"
+  ],
+  "/[username]/following": [
+    "static/chunks/0ldtg2zn5erwz.js"
+  ],
+  "/[username]/infographics": [
+    "static/chunks/02md5t3hbt10i.js"
+  ],
+  "/[username]/insight": [
+    "static/chunks/0vvuyfdbc0sdv.js"
+  ],
+  "/[username]/my-slidespace": [
+    "static/chunks/0-kp8a84_yiu_.js"
+  ],
+  "/[username]/presentations": [
+    "static/chunks/0rusq6gmt_d77.js"
+  ],
+  "/[username]/savedfiles": [
+    "static/chunks/0bcqv1f~q_np3.js"
+  ],
+  "/_error": [
+    "static/chunks/0w~y72c8f9liy.js"
+  ],
+  "/category": [
+    "static/chunks/0timid8av-tnr.js"
+  ],
+  "/category/[name]": [
+    "static/chunks/05m~9lxoflhli.js"
+  ],
+  "/community_guidelines": [
+    "static/chunks/0k6wjzg6v8kog.js"
+  ],
+  "/featured/[[...slug]]": [
+    "static/chunks/0eopwml20_axu.js"
+  ],
+  "/latest/[[...slug]]": [
+    "static/chunks/0wys-qgyghj07.js"
+  ],
+  "/login": [
+    "static/chunks/0q6.kka7huqwx.js"
+  ],
+  "/login/change-password/[username]": [
+    "static/chunks/00v9t13paze.q.js"
+  ],
+  "/login/email": [
+    "static/chunks/0730rm4pskmht.js"
+  ],
+  "/login/forgot-password": [
+    "static/chunks/0d6nrhv-pnr-i.js"
+  ],
+  "/login/linkedin-callback": [
+    "static/chunks/0uv1n5va8y7s8.js"
+  ],
+  "/my-slidespace": [
+    "static/chunks/0b23gq44w0867.js"
+  ],
+  "/nextjs/[username]/[title]/edit": [
+    "static/chunks/0rt080.rx_x~3.js"
+  ],
+  "/nextjs/[username]/my-uploads": [
+    "static/chunks/07brm7.bux1ys.js"
+  ],
+  "/nextjs/[username]/settings": [
+    "static/chunks/0il7833szvnhr.js"
+  ],
+  "/popular/[[...slug]]": [
+    "static/chunks/0ll340w~j5n4y.js"
+  ],
+  "/saved": [
+    "static/chunks/08ybqq6h2_2v1.js"
+  ],
+  "/saved/[listid]": [
+    "static/chunks/0hw5590ddbct1.js"
+  ],
+  "/saved/[listid]/[listname]": [
+    "static/chunks/0s~45ue-7y8nh.js"
+  ],
+  "/search": [
+    "static/chunks/0kaqgs31qigm~.js"
+  ],
+  "/search/slideshow": [
+    "static/chunks/0m0cdr6w-w627.js"
+  ],
+  "/secret/[secret_url]": [
+    "static/chunks/0kxf~wawdaoqu.js"
+  ],
+  "/secret/[secret_url]/[slide]": [
+    "static/chunks/12i5x1x3.9i9n.js"
+  ],
+  "/slideshow/[title]/[id]": [
+    "static/chunks/0e_~pzwcreqnw.js"
+  ],
+  "/slideshow/_page": [
+    "static/chunks/0vj4v.jhu9syl.js"
+  ],
+  "/slideshow/embed_code/key/[key]": [
+    "static/chunks/0t08vggnjwox..js"
+  ],
+  "/slideshows/[title]/[id]": [
+    "static/chunks/0rgplnb0jv3x..js"
+  ],
+  "/tag/[tag]": [
+    "static/chunks/0612u8ntzp.2l.js"
+  ],
+  "/tag_embed/[tag]": [
+    "static/chunks/0mjrd5saqxk1x.js"
+  ],
+  "/upload": [
+    "static/chunks/1084~4mwudebz.js"
+  ],
+  "__rewrites": {
+    "afterFiles": [],
+    "beforeFiles": [],
+    "fallback": []
+  },
+  "sortedPages": [
+    "/",
+    "/_app",
+    "/_error",
+    "/api/_proxy",
+    "/api/change-password",
+    "/api/delete-account",
+    "/api/download-image",
+    "/api/export-data",
+    "/api/refresh-customer-service-token",
+    "/api/unblock",
+    "/api/update-contact-details",
+    "/api/update-content-defaults",
+    "/api/update-email",
+    "/api/update-email-preferences",
+    "/api/update-personal-details",
+    "/category",
+    "/category/[name]",
+    "/community_guidelines",
+    "/featured/[[...slug]]",
+    "/latest/[[...slug]]",
+    "/login",
+    "/login/change-password/[username]",
+    "/login/email",
+    "/login/forgot-password",
+    "/login/linkedin-callback",
+    "/my-slidespace",
+    "/nextjs/[username]/my-uploads",
+    "/nextjs/[username]/settings",
+    "/nextjs/[username]/[title]/edit",
+    "/popular/[[...slug]]",
+    "/saved",
+    "/saved/[listid]",
+    "/saved/[listid]/[listname]",
+    "/search",
+    "/search/slideshow",
+    "/secret/[secret_url]",
+    "/secret/[secret_url]/[slide]",
+    "/slideshow/_page",
+    "/slideshow/embed_code/key/[key]",
+    "/slideshow/[title]/[id]",
+    "/slideshows/[title]/[id]",
+    "/tag/[tag]",
+    "/tag_embed/[tag]",
+    "/upload",
+    "/[username]",
+    "/[username]/analytics",
+    "/[username]/documents",
+    "/[username]/favorites",
+    "/[username]/favorites/tag/[tag]",
+    "/[username]/followers",
+    "/[username]/following",
+    "/[username]/infographics",
+    "/[username]/insight",
+    "/[username]/my-slidespace",
+    "/[username]/presentations",
+    "/[username]/savedfiles",
+    "/[username]/[title]",
+    "/[username]/[title]/[slide]"
+  ]
+};self.__BUILD_MANIFEST_CB && self.__BUILD_MANIFEST_CB()
