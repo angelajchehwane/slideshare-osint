@@ -69,11 +69,11 @@ async def home():
 <div class="search-bar">
     <div class="form-group">
         <label>Keyword</label>
-        <input type="text" id="query" placeholder="e.g. artificial intelligence"  style="width:260px"/>
+        <input type="text" id="query" placeholder="e.g. artificial intelligence" style="width:260px"/>
     </div>
     <div class="form-group">
         <label>Max pages</label>
-        <input type="number" id="pages" style="width:80px"/>
+        <input type="number" id="pages" value="1" min="1" style="width:80px"/>
     </div>
     <button class="btn btn-primary" id="searchBtn" onclick="doSearch()">Search</button>
     <button class="btn btn-download" id="downloadBtn" onclick="downloadJSON()">⬇ Download JSON</button>
@@ -81,12 +81,9 @@ async def home():
 </div>
 
 <div class="main">
-    <!-- LEFT: Cards -->
     <div class="left-panel" id="leftPanel">
         <div class="empty-state">Enter a keyword and click Search to extract results.</div>
     </div>
-
-    <!-- RIGHT: JSON -->
     <div class="right-panel">
         <div class="right-header">
             <span>JSON Output</span>
@@ -118,6 +115,7 @@ async function doSearch() {
     try {
         const res = await fetch(`/search?query=${encodeURIComponent(query)}&max_pages=${pages}`);
         currentData = await res.json();
+        if (!Array.isArray(currentData)) throw new Error('Unexpected response from server');
         status.textContent = `${currentData.length} results`;
         renderCards(currentData, query);
         renderJSON(currentData);
@@ -137,14 +135,14 @@ function renderCards(data, query) {
         panel.innerHTML = '<div class="no-results">No results found for "' + query + '"</div>';
         return;
     }
-    panel.innerHTML = data.map((r, i) => `
+    panel.innerHTML = data.map((r) => `
         <div class="card">
             <div class="card-title"><a href="${r.url}" target="_blank">${r.title}</a></div>
             <div class="card-meta">
                 ${r.author ? `<span>👤 ${r.author}</span>` : ''}
                 ${r.views ? `<span>👁 ${Number(r.views).toLocaleString()} views</span>` : ''}
                 ${r.slides ? `<span>📑 ${r.slides} slides</span>` : ''}
-                <span>📄 Page ${r.page}</span>''}</span>
+                <span>📄 Page ${r.page}</span>
             </div>
             ${r.description ? `<div class="card-desc">${r.description}</div>` : ''}
         </div>
